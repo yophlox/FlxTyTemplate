@@ -25,10 +25,6 @@ class CustomFlxSoundTray extends FlxSoundTray
 
   var volumeMaxSound:String;
 
-  var volumeUpSound:String;
-  var volumeDownSound:String;
-  var silent:Bool = false;
-
   public function new()
   {
     // calls super, then removes all children to add our own
